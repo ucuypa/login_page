@@ -19,3 +19,17 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    # Icon files
+    - assets/icon/AddIcon.png
+    - assets/icon/All Coffee.png
+    - assets/icon/Back.png
+    - assets/icon/Heart.png
+    - assets/icon/StarRating.png
+
+    # Image files
+    - assets/image/blackcoffee.jpg
+    - assets/image/caramelmachiato.jpg
+    - assets/image/coffee.jpg
+    - assets/image/Flat_white.jpg
