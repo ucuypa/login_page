@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:login_page/screens/coffee_list_screen.dart';
 import 'login_page.dart';
 // import 'home_screen.dart'; INI BELUM ADA
 
@@ -14,8 +15,7 @@ class AuthGate extends StatelessWidget {
         if (!snapshots.hasData) {
           return const LoginPage();
         }
-
-        //return const belum ada;
+        return const CoffeeListScreen();
       },
     );
   }
